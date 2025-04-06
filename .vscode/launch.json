@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftUI Projects}",
+            "name": "Debug SwiftUI Projects",
+            "program": "${workspaceFolder:SwiftUI Projects}/.build/debug/SwiftUI Projects",
+            "preLaunchTask": "swift: Build Debug SwiftUI Projects"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftUI Projects}",
+            "name": "Release SwiftUI Projects",
+            "program": "${workspaceFolder:SwiftUI Projects}/.build/release/SwiftUI Projects",
+            "preLaunchTask": "swift: Build Release SwiftUI Projects"
+        }
+    ]
+}
